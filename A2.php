@@ -20,12 +20,12 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students Enrollment Data</title>
-    
+    <link rel="stylesheet" href="pico-main/css/pico.min.css">
 </head>
 <body>
 
 <h2>Students Enrollment Data</h2>
-
+<div class="overflow-auto">
 <table>
     <thead>
         <tr>
@@ -50,6 +50,6 @@ if (json_last_error() !== JSON_ERROR_NONE) {
         <?php endforeach; ?>
     </tbody>
 </table>
-
+</div>
 </body>
 </html>
