@@ -13,3 +13,14 @@ if (json_last_error() !== JSON_ERROR_NONE) {
     die('Error decoding JSON: ' . json_last_error_msg());
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students Enrollment Data</title>
+</head>
+<body>
+    
+</body>
+</html>
